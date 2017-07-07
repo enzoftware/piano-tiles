@@ -30,6 +30,11 @@ function genSet(){
   var titleWidth = (($('mobileDisplay').width())/4)-1;
 
   for (var i = 0; i < 4; i++) {
-    
+    if (i == blackId) {
+      htmCode += '<div style = "width:'+titleWidth+'px;" class ="tile black"></div>';
+    }else{
+      htmCode += '<div style = "width:'+titleWidth+'px;" class ="tile"></div>';
+    }
   }
+  return htmCode;
 }
