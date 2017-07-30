@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pricing calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h2> HOW MUCH DO PIES COST ? </h2>
+
+    <form>
+
+      <div class="form-group">
+        <label for="price"> Price</label>
+        <input type="text" class="form-control" name="price" value="50">
+      </div>
+
+
+      <div class="form-group">
+        <label for="quantity">
+            Quantity  => 
+            <span class="label label-primary quantity-label">1</span
+        </label>
+        <input type="range" class="form-control" name="quantity" value="1" min="1" max="12" step="1">
+      </div>
+
+    </form>
+    <div class="text-right text-giant total">
+
+    </div>
+  </div>
+
+  <script src="source.js">
+  </script>
+
+</body>
+
+</html>
