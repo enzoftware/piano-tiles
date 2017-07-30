@@ -1,0 +1,12 @@
+body {
+    background: #000;
+}
+
+.btn-crazy {
+    position: absolute;
+    top: 30px;
+    left: 35%;
+    width: 20%;
+    transition: 0.5s ease all;
+    text-align: center;
+}
