@@ -1,0 +1,40 @@
+body , .jumbotron{
+  background: #EFEFEF;
+  padding: 30px;
+}
+
+.accordion{
+  border-radius: 5px;
+  padding: 30px;
+  background: #FFF;
+}
+
+.question{
+  border-top: 1px;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+,question h2{
+  font-size: 20px;
+  margin: 0;
+  color : #C00C00;
+}
+
+.question .icon{
+  position: absolute;
+  right: 20px;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.answer{
+  transition: 1s cubic-bezier(0.175,0.885,0.32,1.275) all;
+}
+
+.answer p{
+  padding : 20px;
+}
